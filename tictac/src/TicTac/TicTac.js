@@ -25,6 +25,7 @@ function TicTac() {
       }
     }
 
+    // Checking Draw
     const draw = (box) => {
         let count = 0;
         box.forEach(ele => {
@@ -39,6 +40,7 @@ function TicTac() {
         }
     }
 
+    // Checking Winner
     const winner = (box) => {
         const matrix = [
             [0,1,2],
