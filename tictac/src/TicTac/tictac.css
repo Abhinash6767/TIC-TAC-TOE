@@ -1,0 +1,35 @@
+div{
+    height: 100vh;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+h2{
+    margin-bottom: 70px;
+    color: gold;
+}
+
+.table{
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+td{
+    height: 100px;
+    width: 100px;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    color: goldenrod;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+
+}
