@@ -63,19 +63,19 @@ function TicTac() {
         return check;
     }
   return (
-    <div>
+    <div className='start'>
     <h2>TIC TAC TOE</h2>
-        <table className='table'>
+        <div className='table'>
         {
           tick.map((item, i)=> {
             return (
-              <tr className='box'>
-                <td key={i} onClick={() => {clickBox(i)}}>{item}</td>
-              </tr>
+              <div className='box'>
+                <div className='add' key={i} onClick={() => {clickBox(i)}}>{item}</div>
+              </div>
             )
           })
         }
-        </table>
+        </div>
     </div>
   )
 }

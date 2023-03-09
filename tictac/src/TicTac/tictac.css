@@ -1,4 +1,4 @@
-div{
+.start{
     height: 100vh;
     display:  flex;
     flex-direction: column;
@@ -21,15 +21,17 @@ h2{
 
 }
 
-td{
+.add{
     height: 100px;
     width: 100px;
     border: 2px solid greenyellow;
     border-radius: 30px;
     color: goldenrod;
-    text-align: center;
     font-weight: bold;
     font-size: 30px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
 }
